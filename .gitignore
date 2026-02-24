@@ -19,8 +19,8 @@
 
 # Extra
 PROMTS.md
-./server/README.md
-./server/LICENSE
+server/README.md
+server/LICENSE
 
 # Logs
 logs
