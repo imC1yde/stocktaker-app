@@ -18,7 +18,7 @@
 ./server/prisma/migrations
 
 # Extra
-PROMTS.md
+COMMANDS.md
 server/README.md
 server/LICENSE
 
