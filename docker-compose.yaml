@@ -65,13 +65,6 @@ services:
       - database
       - redis
       - s3
-    develop:
-      watch:
-        - action: sync
-          path: ./server
-          target: /usr/app/server
-        - action: rebuild
-          path: ./server/package.json
     networks:
       - app_network
 

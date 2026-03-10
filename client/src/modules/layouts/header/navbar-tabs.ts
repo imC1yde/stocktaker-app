@@ -1,0 +1,1 @@
+export const navbarTabs: string[] = [ 'Home', 'My Inventory', 'My Games' ]

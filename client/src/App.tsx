@@ -1,9 +1,7 @@
-function App() {
+import AppRouter from '@src/core/routing/AppRouter.tsx'
 
-  return (
-    <>
-    </>
-  )
+const App = () => {
+  return <AppRouter/>
 }
 
 export default App
