@@ -9,9 +9,11 @@ interface ILayoutProps {
 
 const Layout: FC<ILayoutProps> = (props) => {
   return (
-    <div className="w-full h-dvh bg-primary-bg">
+    <div className="w-full h-dvh min-h-dvh bg-primary-bg flex flex-col">
       <Header/>
-      {props.children}
+      <div className="flex-1">
+        {props.children}
+      </div>
       <Footer/>
     </div>
   )
