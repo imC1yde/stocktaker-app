@@ -1,16 +1,16 @@
-import { PATH } from '@src/common/constants/path.constant.ts'
+import { ROUTES } from '@src/common/constants/path.constant.ts'
 import AuthPage from '@src/pages/Auth.page.tsx'
 import HomePage from '@src/pages/Home.page.tsx'
 import { createBrowserRouter, Navigate } from 'react-router-dom'
 
 export const routerSetup = [
   {
-    path: PATH.HOME,
+    path: ROUTES.HOME,
     element: <HomePage/>,
     requiresAuth: false
   },
   {
-    path: PATH.AUTH,
+    path: ROUTES.AUTH,
     element: <AuthPage/>,
     requiresAuth: false
   },
@@ -21,7 +21,7 @@ export const routerSetup = [
   // },
   {
     path: '*',
-    element: <Navigate to={PATH.HOME} replace/>
+    element: <Navigate to={ROUTES.HOME} replace/>
   }
 ]
 
